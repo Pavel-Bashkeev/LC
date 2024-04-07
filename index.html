@@ -25,7 +25,17 @@
       </p>
     </div>
     <div class="images">
-      <img src="./images/bg.png" alt="Звездный фон акции" class="images__bg" width="3000" height="1337">
+      <picture>
+        <source media="(min-width: 1950px)" srcset="./images/bg.webp" type="image/webp">
+        <source media="(min-width: 1950px)" srcset="./images/bg.png" type="image/png">
+        <source media="(min-width: 1200px)" srcset="./images/bg-1920.webp" type="image/webp">
+        <source media="(min-width: 1200px)" srcset="./images/bg-1920.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="./images/bg-1280.webp" type="image/webp">
+        <source media="(min-width: 750px)" srcset="./images/bg-1280.png" type="image/png">
+        <source media="(min-width: 100px)" srcset="./images/bg-750.webp" type="image/webp">
+        <source media="(min-width: 1000px)" srcset="./images/bg-750.png" type="image/png">
+        <img src="./images/bg-1920.png" alt="Звездный фон акции" class="images__bg" width="3000" height="1337">
+      </picture>
       <img src="./images/items/stars.png" alt="" class="images__items st1bjg rtInf">
       <img src="./images/items/zi1_flowrs_1Big.png" alt="" class="images__items fl1bjg">
       <img src="./images/items/zi2_flowrs_3Big.png" alt="" class="images__items fl3bjg">
