@@ -47,6 +47,7 @@ body{
 .animations{
   position: relative;
   overflow: hidden;
+  opacity: 0;
 }
 .text{
   position: absolute;
